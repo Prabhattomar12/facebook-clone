@@ -1,0 +1,33 @@
+.login {
+  display: grid;
+  place-items: center;
+  padding-top: 20px;
+  height: 100vh;
+  background-color: white;
+}
+
+.login_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_logo_image {
+  height: 200px;
+  object-fit: contain;
+}
+
+.login_logo_text {
+  height: 300px;
+  object-fit: contain;
+}
+
+.login > Button {
+  color: white;
+  padding: 12px 30px;
+  background-color: rgba(19, 122, 219, 0.972);
+}
+
+.login > Button:hover {
+  color: blue;
+  transform: scale(1.05);
+}
